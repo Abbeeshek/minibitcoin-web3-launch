@@ -25,7 +25,7 @@ const Index = () => {
           <li>community-governed interactions</li>
           <li>transparent peer-to-peer systems</li>
         </ul>
-        <p className="text-primary font-semibold text-xl">
+        <p className="font-semibold text-xl">
           This is the next evolution of the internet, powered entirely by the MiniBitcoin Blockchain.
         </p>
       </ContentSection>
@@ -62,17 +62,17 @@ const Index = () => {
       </ContentSection>
 
       {/* MBTC Integration */}
-      <ContentSection title="🔗 How It Integrates With MiniBitcoin (MBTC)" accent="accent">
-        <p className="text-accent font-semibold text-xl mb-6">
-          MBTC is the fuel of our entire Web3 operation.
+      <ContentSection title="🔗 How It Integrates With MiniBitcoin (MBTC)">
+        <p className="font-semibold text-xl mb-6">
+          <span className="text-gradient-accent">MBTC</span> is the fuel of our entire Web3 operation.
         </p>
         
         <div className="space-y-8">
-          <div className="bg-card border border-accent/30 rounded-xl p-6">
+          <div className="bg-card border border-border rounded-xl p-6">
             <div className="flex items-start gap-4">
-              <Coins className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
+              <Coins className="w-8 h-8 text-foreground/70 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-accent">1. MBTC as Web3 Access Token</h3>
+                <h3 className="text-2xl font-semibold mb-3 text-foreground">1. MBTC as Web3 Access Token</h3>
                 <p className="text-foreground/90">
                   All decentralized actions — identity verification, storage, governance, contract interactions — run on MBTC gas fees.
                 </p>
@@ -80,11 +80,11 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="bg-card border border-accent/30 rounded-xl p-6">
+          <div className="bg-card border border-border rounded-xl p-6">
             <div className="flex items-start gap-4">
-              <Wallet className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
+              <Wallet className="w-8 h-8 text-foreground/70 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-accent">2. MBTC Wallet Ecosystem</h3>
+                <h3 className="text-2xl font-semibold mb-3 text-foreground">2. MBTC Wallet Ecosystem</h3>
                 <p className="text-foreground/90">
                   Every Web3 service uses the MiniBitcoin wallet as the main access point.
                 </p>
@@ -92,12 +92,12 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="bg-card border border-accent/30 rounded-xl p-6">
+          <div className="bg-card border border-border rounded-xl p-6">
             <div className="flex items-start gap-4">
-              <Rocket className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
+              <Rocket className="w-8 h-8 text-foreground/70 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-accent">3. MBTC Rewards for Participation</h3>
-                <p className="text-foreground/90 mb-4">Users earn MBTC for:</p>
+                <h3 className="text-2xl font-semibold mb-3 text-foreground">3. MBTC Rewards for Participation</h3>
+                <p className="text-foreground/90 mb-4">Users earn <span className="text-gradient-accent font-semibold">MBTC</span> for:</p>
                 <ul className="list-disc list-inside space-y-2 ml-6 text-foreground/90">
                   <li>using dApps</li>
                   <li>voting</li>
@@ -123,10 +123,10 @@ const Index = () => {
           <li>global invoice & export settlement</li>
         </ul>
         <p>
-          Integrating WTC into MiniBitcoin Web3 allows global companies to use decentralized tools with real-world utility.
+          Integrating <span className="text-gradient-accent font-semibold">WTC</span> into MiniBitcoin Web3 allows global companies to use decentralized tools with real-world utility.
         </p>
-        <p className="text-primary font-semibold text-xl">
-          Together, MBTC + WTC bring Web3 to consumers AND enterprises.
+        <p className="font-semibold text-xl">
+          Together, <span className="text-gradient-accent">MBTC + WTC</span> bring Web3 to consumers AND enterprises.
         </p>
       </ContentSection>
 
@@ -145,7 +145,7 @@ const Index = () => {
       </ContentSection>
 
       {/* Future Vision */}
-      <ContentSection title="🌟 Future Vision" accent="accent">
+      <ContentSection title="🌟 Future Vision">
         <p>MiniBitcoin Web3 will evolve into:</p>
         <ul className="list-disc list-inside space-y-2 ml-6">
           <li>a fully decentralized internet layer</li>
@@ -153,8 +153,8 @@ const Index = () => {
           <li>a global identity + transaction ecosystem</li>
           <li>a unified Web3 environment for gaming, AI, finance, and global trade</li>
         </ul>
-        <p className="text-accent font-bold text-2xl mt-8 text-center">
-          Web3 is not just a feature — it's the soul of a decentralized MiniBitcoin world.
+        <p className="font-bold text-2xl mt-8 text-center">
+          <span className="text-gradient-accent">Web3</span> is not just a feature — it's the soul of a decentralized MiniBitcoin world.
         </p>
       </ContentSection>
 
