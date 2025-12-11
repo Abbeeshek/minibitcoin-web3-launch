@@ -41,7 +41,7 @@ const Index = () => {
           <FeatureCard
             icon={<Wallet className="w-10 h-10" />}
             title="2. Web3 Wallet Integration"
-            description="Seamless MBTC and WTC access across dApps, payments, gaming platforms, business tools, and staking dashboards. All in one unified wallet experience."
+            description="Seamless IBTC and WTC access across dApps, payments, gaming platforms, business tools, and staking dashboards. All in one unified wallet experience."
           />
           <FeatureCard
             icon={<Link2 className="w-10 h-10" />}
@@ -56,15 +56,15 @@ const Index = () => {
           <FeatureCard
             icon={<Users className="w-10 h-10" />}
             title="5. User Governance"
-            description="Web3 enables the community to vote, propose, and influence upgrades using MBTC staking and governance smart contracts."
+            description="Web3 enables the community to vote, propose, and influence upgrades using IBTC staking and governance smart contracts."
           />
         </div>
       </ContentSection>
 
-      {/* MBTC Integration */}
-      <ContentSection title="🔗 How It Integrates With MiniBitcoin (MBTC)">
+      {/* IBTC Integration */}
+      <ContentSection title="🔗 How It Integrates With MiniBitcoin (IBTC)">
         <p className="font-semibold text-xl mb-6">
-          <span className="text-gradient-accent">MBTC</span> is the fuel of our entire Web3 operation.
+          <span className="text-gradient-accent">IBTC</span> is the fuel of our entire Web3 operation.
         </p>
         
         <div className="space-y-8">
@@ -72,9 +72,9 @@ const Index = () => {
             <div className="flex items-start gap-4">
               <Coins className="w-8 h-8 text-foreground/70 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-foreground">1. MBTC as Web3 Access Token</h3>
+                <h3 className="text-2xl font-semibold mb-3 text-foreground">1. IBTC as Web3 Access Token</h3>
                 <p className="text-foreground/90">
-                  All decentralized actions — identity verification, storage, governance, contract interactions — run on MBTC gas fees.
+                  All decentralized actions — identity verification, storage, governance, contract interactions — run on IBTC gas fees.
                 </p>
               </div>
             </div>
@@ -84,7 +84,7 @@ const Index = () => {
             <div className="flex items-start gap-4">
               <Wallet className="w-8 h-8 text-foreground/70 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-foreground">2. MBTC Wallet Ecosystem</h3>
+                <h3 className="text-2xl font-semibold mb-3 text-foreground">2. IBTC Wallet Ecosystem</h3>
                 <p className="text-foreground/90">
                   Every Web3 service uses the MiniBitcoin wallet as the main access point.
                 </p>
@@ -96,8 +96,8 @@ const Index = () => {
             <div className="flex items-start gap-4">
               <Rocket className="w-8 h-8 text-foreground/70 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-foreground">3. MBTC Rewards for Participation</h3>
-                <p className="text-foreground/90 mb-4">Users earn <span className="text-gradient-accent font-semibold">MBTC</span> for:</p>
+                <h3 className="text-2xl font-semibold mb-3 text-foreground">3. IBTC Rewards for Participation</h3>
+                <p className="text-foreground/90 mb-4">Users earn <span className="text-gradient-accent font-semibold">IBTC</span> for:</p>
                 <ul className="list-disc list-inside space-y-2 ml-6 text-foreground/90">
                   <li>using dApps</li>
                   <li>voting</li>
@@ -126,7 +126,7 @@ const Index = () => {
           Integrating <span className="text-gradient-accent font-semibold">WTC</span> into MiniBitcoin Web3 allows global companies to use decentralized tools with real-world utility.
         </p>
         <p className="font-semibold text-xl">
-          Together, <span className="text-gradient-accent">MBTC + WTC</span> bring Web3 to consumers AND enterprises.
+          Together, <span className="text-gradient-accent">IBTC + WTC</span> bring Web3 to consumers AND enterprises.
         </p>
       </ContentSection>
 

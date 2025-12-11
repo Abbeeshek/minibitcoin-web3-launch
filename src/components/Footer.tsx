@@ -3,7 +3,7 @@ const Footer = () => {
     { name: "Home", href: "/" },
     { name: "Ecosystem", href: "#ecosystem" },
     { name: "Web3", href: "#web3" },
-    { name: "MBTC", href: "#mbtc" },
+    { name: "IBTC", href: "#ibtc" },
     { name: "WTC", href: "#wtc" },
     { name: "Contact", href: "#contact" },
   ];
